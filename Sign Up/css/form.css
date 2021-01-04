@@ -34,18 +34,21 @@ form {
 
        }
        .form*row:last-of-type {
-        
-        margin-bottom: 0;
+           margin-bottom: 0;
        }
           label {
               display: inline-block;
               width: 100%;
-
+              margin-bottom: 5px;
           }
           input {
               display: inline-block;
               width: 100%;
-         }
+              line-height: 30px;
+              font-size: 20px;
+              border: none;
+              border-bottom: 1px solid #999;
+          }
           
        .form*row > span {
            display: inline-block;
@@ -54,10 +57,4 @@ form {
            display: inline-block;
 
        }
-   .form*row > span {
-       display: inline-block;
-}
-   .form*row > a {
-       display: inline-block;
-
-   }
+   
