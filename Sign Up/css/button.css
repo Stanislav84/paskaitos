@@ -10,5 +10,9 @@
     background-color: #005dd8;
     color: white;
     border: none;
+    cursor: pointer;
 
+}
+.btn:focus {
+    outline: none;
 }
